@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--<img alt="Vue logo" src="./assets/logo.png">-->
+    <Contacts msg="Anton" />
+    <OurOffices />
+    <ContactUs />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Contacts from './components/Contacts.vue'
+import OurOffices from './components/OurOffices.vue'
+import ContactUs from './components/ContactUs.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Contacts,
+    OurOffices,
+    ContactUs
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  top: 0;
 }
 </style>
