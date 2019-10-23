@@ -201,4 +201,14 @@ $color-back: #262626;
 .filter {
   filter: grayscale(100);
 }
+@media (max-width: 767px) {
+  .our-offices {
+    height: auto;
+  }
+  .map {
+    position: relative;
+    height: 500px;
+    width: 100%;
+  }
+}
 </style>
