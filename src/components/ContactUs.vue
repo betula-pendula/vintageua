@@ -105,7 +105,7 @@ export default {
       }
 
       if (!this.validPhone(this.phone)) {
-        this.errors.push('Укажите корректный телефон начиная с +38093.');
+        this.errors.push('Укажите корректный телефон начиная с +38093 и содержать 7 цифр.');
         this.errorStylePhone = true;
       }
 
